@@ -9,3 +9,5 @@ As of **Monday, 31st of August**, I have:
 >* Explain the requirements of the audience. 
 
 > I am close to finishing Phase One. I will have to create a storyboard of my home page and also create a sitemap. I also have to include evidence of research and investigations of 3+ similar websites.
+
+> 42 days away from deadline
