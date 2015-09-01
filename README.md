@@ -1,7 +1,10 @@
 #Business Website
 This is the business website repo I am making for a school assignment. 
 
-As of **Monday, 31st of August**, I have:
+##Contents
+* [31st of August](#thirtyFirstAug)
+
+####<a name="thirtyFirstAug"></a>As of **Monday, 31st of August**, I have:
 >* Brainstormed ideas for my website
 >* Explained the purpose of my website
 >* List 5 characteristics of my website's target audience
