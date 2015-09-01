@@ -4,7 +4,7 @@ This is the business website repo I am making for a school assignment.
 ##Contents
 * [31st of August](#thirtyFirstAug)
 * [1st of September](#firstSeptember)
-* 
+
 ####<a name="thirtyFirstAug"></a>As of **Monday, 31st of August**, I have:
 >* Brainstormed ideas for my website
 >* Explained the purpose of my website
@@ -16,7 +16,7 @@ This is the business website repo I am making for a school assignment.
 
 > 42 days away from deadline
 
-####<a name="firstSeptember></a>As of **Tuesday, 1st of September**, I have: 
+####<a name="firstSeptember"></a>As of **Tuesday, 1st of September**, I have: 
 >* Got one website that I searched, http://www.bootstrapzero.com/. 
 >* Decided and started on a full-background homepage (This idea might change)
 
