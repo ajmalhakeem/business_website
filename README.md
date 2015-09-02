@@ -1,5 +1,5 @@
 #Business Website
-This is the business website repo I am making for a school assignment. 
+This is the business website repo I am making for a school assignment. I will be updating this Markdown file every time I do something related to this project. It will not be about the edits I make in the actual project, rather it will be more about the assignment-related parts of the project ie. which phase I am currently on, etc. 
 
 ##Contents
 * [31st of August](#thirtyFirstAug)
@@ -23,3 +23,9 @@ This is the business website repo I am making for a school assignment.
 > I am a step closer to completing Phase One. I have looked up one website already, which I will look for themes and try to mimick them. 
 
 > 41 days away from deadline
+
+####<a name="secondSeptember"></a>As of **Wednesday, 2nd of September**, I have: 
+>* Started on my website's home page.
+>* Found out more about sitemap and how to create one.
+
+> 40 days away from deadline
