@@ -4,6 +4,7 @@ This is the business website repo I am making for a school assignment. I will be
 ##Contents
 * [31st of August](#thirtyFirstAug)
 * [1st of September](#firstSeptember)
+* [2nd of September](#secondSeptember)
 
 ####<a name="thirtyFirstAug"></a>As of **Monday, 31st of August**, I have:
 >* Brainstormed ideas for my website
