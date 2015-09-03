@@ -5,14 +5,12 @@
   <title>My Business Website</title>
   <!-- Bootstrap CSS -->
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
-  <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Raleway:600' rel='stylesheet' type='text/css'>
   <style>
-
     html, body {
       height: 100%;
       width: 100%;
     }
-
     .container {
       background-image:url("images/bg.jpg");
       width:100%;
@@ -20,19 +18,16 @@
       background-size:cover;
       background-position: center;
     }
-
-    .icons {
+    .icons { 
       color: white;
-      font-size: 2em;
+      font-size: 1em;
     }
-
     /* NAVIGATION */
     .navbar {
       margin-bottom: 0px;
       float: right;
       padding-top: 10px;
     }
-
     .transparent {
       border-width: 0px;
       -webkit-box-shadow: 0px 0px;
@@ -50,14 +45,15 @@
       padding-right: 35px;
       text-align: right;
       color: white;
-      font-family:"Poiret One", sans-serif;
+      font-family:"Rale", sans-serif;
     }
-
-
-    @media (min-width: 480px) {
+    
+    @media only screen and (max-width: 480px) {
+      .container {
+        background-color: red !important;
+      }
       ul li {
-        text-align: center;
-        display: block;
+        text-align: center !important;
       }
     }
   </style>
@@ -76,7 +72,7 @@
     </nav>
     <div class="row">
       <div class="col-xs-4 col-xs-offset-8">
-        <ul>
+        <ul>t
           <li>About</li>
           <li>Page</li>
           <li>Page</li>
