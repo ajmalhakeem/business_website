@@ -5,6 +5,7 @@ This is the business website repo I am making for a school assignment. I will be
 * [31st of August](#thirtyFirstAug)
 * [1st of September](#firstSeptember)
 * [2nd of September](#secondSeptember)
+* [10th of September](#tenthSeptember)
 
 ####<a name="thirtyFirstAug"></a>As of **Monday, 31st of August**, I have:
 >* Brainstormed ideas for my website
@@ -30,3 +31,9 @@ This is the business website repo I am making for a school assignment. I will be
 >* Found out more about sitemap and how to create one.
 
 > 40 days away from deadline
+
+####<a name="tenthSeptember"></a>As of **Thursday, 10th of September**, I have: 
+>* Added more content to my home page
+>* Spent 8 days doing nothing
+
+> 32 days away from deadline
