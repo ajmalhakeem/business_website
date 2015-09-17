@@ -1,20 +1,16 @@
+
+/*NAVIGATION*/
+
 .navbar .navbar-brand {
     font-size: 30px;
     padding: 20px 20px;
     color: #27272B;
 }
 
-.x {
-    color: #B20000;
-}
-
 .navbar-default {
     border-radius: 0;
     background-color: white;
-}
-
-ul .dropdown-menu {
-    background-color: white;
+    margin-bottom: 0;
 }
 
 .navbar-default .navbar-nav > li > a:not(.btn) {
@@ -23,11 +19,74 @@ ul .dropdown-menu {
     font-size: 13px;
 }
 
+.navbar-default .navbar-nav > li > a:not(.btn):hover {
+    color: #b20000;
+}
+
+.navbar-default .navbar-nav > li > a:not(.btn):focus {
+    color: #b20000;
+}
+
 .dropdown-menu > li > a {
     color: #1A1A1A;
     font-size: 13px;
     text-transform: uppercase;
 }
+
+.dropdown-menu > li > a:hover {
+    background-color: #353636;
+    color: #b20000;
+}
+
+.navbar-default .navbar-nav > .dropdown > a:hover .caret, .navbar-default .navbar-nav > .dropdown > a:focus .caret {
+    color: #b20000;
+    border-bottom-color: #b20000;
+    border-top-color: #b20000;
+}
+
+ul .dropdown-menu {
+    background-color: white;
+}
+
+/*JUMBOTRON*/
+
+.jumbotron {
+    height: 400px;
+    text-align: center;
+    color: #1A1A1A;
+}
+
+/*MISCELLANEOUS CLASSES*/
+
+.x {
+    color: #B20000;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color: #1a1a1a;
+}
+
+p {
+    color: #1a1a1a;
+}
+
+/*CONTACT FORM*/
+
+.contact {
+    text-align: center;
+    color: #1a1a1a;
+}
+
+.contact .form-group textarea {
+    height: 200px;
+}
+
+input {
+    background-color: red;
+}
+
+
+/*MOBILE DEVICES*/
 
 @media only screen and (max-width: 767px) {
 
