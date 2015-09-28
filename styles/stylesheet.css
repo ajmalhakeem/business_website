@@ -28,7 +28,7 @@
 }
 
 .dropdown-menu > li > a {
-    color: #2C2C2C;
+    color: #333439;
     font-size: 13px;
     text-transform: uppercase;
 }
@@ -53,7 +53,7 @@ ul .dropdown-menu {
 .jumbotron {
     height: 400px;
     text-align: center;
-    color: #2C2C2C;
+    color: #333439;
 }
 
 /*MISCELLANEOUS CLASSES*/
@@ -63,18 +63,18 @@ ul .dropdown-menu {
 }
 
 h1,h2,h3,h4,h5,h6 {
-    color: #2C2C2C;
+    color: #333439;
 }
 
 p {
-    color: #2C2C2C;
+    color: #333439;
 }
 
 /*CONTACT FORM*/
 
 .contact {
     text-align: center;
-    color: #2C2C2C;
+    color: #333439;
 }
 
 .contact .form-group textarea {
@@ -99,10 +99,57 @@ input {
     }
 
     .navbar-nav {
-        background-color: #2C2C2C;
+        background-color: #333439;
     }
 
 }
 
+@media only screen and (max-width: 1024px) {
+    #myCarousel {
+       height: 300px !important;
+    }
+
+    .item {
+        height: 300px !important;
+    }
+}
+
+@media only screen and (max-width: 610px) {
+    #myCarousel {
+       height: 190px !important;
+    }
+
+    .item {
+        height: 190px !important;
+    }
+}
+/*CAROUSEL*/
+
+#myCarousel {
+    height: 500px;
+}
+
+.item {
+    height: 500px;
+}
+
+.carousel-control .glyphicon {
+    font-size: 1em;
+    top: 67%;
+}
+
+.carousel-inner .item {
+    padding: 0;
+}
+
+.carousel-inner .item img {
+    max-width: 100%;
+    margin: 0 auto;
+    border-radius: 0;
+}
+
+.carousel-caption h2 {
+    color: white;
+}
 
 

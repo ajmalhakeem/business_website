@@ -73,7 +73,7 @@ blockquote small {
   color: #BB992F !important; }
 
 .text-danger, .text-danger:hover {
-  color: #B33C12 !important; }
+  color: #b20000 !important; }
 
 .glyphicon {
   line-height: 1; }
@@ -408,14 +408,14 @@ input.ct-red + span + label + span.switch-right {
     opacity: 1;
     filter: alpha(opacity=100); }
     .navbar .navbar-nav > li > a.btn-danger.btn-fill:hover, .navbar .navbar-nav > li > a.btn-danger.btn-fill:focus, .navbar .navbar-nav > li > a.btn-danger.btn-fill:active, .navbar .navbar-nav > li > a.btn-danger.btn-fill.active, .open > .navbar .navbar-nav > li > a.btn-danger.btn-fill.dropdown-toggle, .btn-danger.btn-fill:hover, .btn-danger.btn-fill:focus, .btn-danger.btn-fill:active, .btn-danger.btn-fill.active, .open > .btn-danger.btn-fill.dropdown-toggle {
-      background-color: #B33C12;
+      background-color: #b20000;
       color: #FFFFFF;
-      border-color: #B33C12; }
+      border-color: #b20000; }
     .navbar .navbar-nav > li > a.btn-danger.btn-fill .caret, .btn-danger.btn-fill .caret {
       border-top-color: #FFFFFF; }
   .navbar .navbar-nav > li > a.btn-danger.btn-simple:hover, .navbar .navbar-nav > li > a.btn-danger.btn-simple:focus, .navbar .navbar-nav > li > a.btn-danger.btn-simple:active, .navbar .navbar-nav > li > a.btn-danger.btn-simple.active, .open > .navbar .navbar-nav > li > a.btn-danger.btn-simple.dropdown-toggle, .btn-danger.btn-simple:hover, .btn-danger.btn-simple:focus, .btn-danger.btn-simple:active, .btn-danger.btn-simple.active, .open > .btn-danger.btn-simple.dropdown-toggle {
     background-color: transparent;
-    color: #B33C12; }
+    color: #b20000; }
   .navbar .navbar-nav > li > a.btn-danger.btn-simple .caret, .btn-danger.btn-simple .caret {
     border-top-color: #FFFFFF; }
   .navbar .navbar-nav > li > a.btn-danger .caret, .btn-danger .caret {
@@ -906,7 +906,7 @@ textarea.form-control {
 
 .alert-danger {
   background-color: #FF8F5E;
-  color: #B33C12; }
+  color: #b20000; }
 
 /*           Labels & Progress-bar              */
 .label {
@@ -1045,7 +1045,7 @@ textarea.form-control {
   line-height: 22px;
   padding: 15px 15px 8px 15px;
   margin: 0;
-  color: #B33C12;
+  color: #b20000;
   text-align: center;
   border-radius: 4px 4px 0 0; }
 
@@ -1896,13 +1896,12 @@ textarea.form-control {
   box-shadow: inset 0 7px 10px -7px rgba(0, 0, 0, 0.14); }
 
 .carousel-control {
-  background-color: #EB5E28;
-  border-radius: 50%;
   opacity: 1;
+  border-radius: 50%;
   text-shadow: none; }
   .carousel-control:hover, .carousel-control:focus {
     opacity: 1;
-    background-color: #B33C12; }
+   }
 
 .carousel-control.left {
   height: 30px;
@@ -1948,7 +1947,7 @@ textarea.form-control {
   border: 0 none; }
 
 .carousel-indicators .active {
-  background-color: #EB5E28; }
+  background-color: #333439; }
 
 .modal-header {
   border-bottom: 1px solid #DDDDDD;
