@@ -85,6 +85,50 @@ input {
     background-color: red;
 }
 
+/*CAROUSEL*/
+
+#myCarousel {
+    height: 500px;
+}
+
+.item {
+    height: 500px;
+}
+
+.carousel-control .glyphicon {
+    font-size: 1em;
+    top: 67%;
+}
+
+.carousel-inner .item {
+    padding: 0;
+}
+
+.carousel-inner .item img {
+    max-width: 100%;
+    margin: 0 auto;
+    border-radius: 0;
+}
+
+.carousel-caption {
+    bottom: 35%;
+}
+
+.carousel-caption h2,{
+    color: white;
+}
+
+/*QUICKINFO*/
+
+.col-md-4 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.col-md-4 .glyphicon {
+    font-size: 30px;
+}
 
 /*MOBILE DEVICES*/
 
@@ -112,6 +156,10 @@ input {
     .item {
         height: 300px !important;
     }
+
+    .carousel-caption {
+        bottom: 20%;
+    }
 }
 
 @media only screen and (max-width: 610px) {
@@ -122,34 +170,13 @@ input {
     .item {
         height: 190px !important;
     }
-}
-/*CAROUSEL*/
 
-#myCarousel {
-    height: 500px;
-}
-
-.item {
-    height: 500px;
+    .carousel-caption {
+        bottom: 20%;
+    }
 }
 
-.carousel-control .glyphicon {
-    font-size: 1em;
-    top: 67%;
-}
 
-.carousel-inner .item {
-    padding: 0;
-}
 
-.carousel-inner .item img {
-    max-width: 100%;
-    margin: 0 auto;
-    border-radius: 0;
-}
-
-.carousel-caption h2 {
-    color: white;
-}
 
 
