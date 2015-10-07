@@ -1,47 +1,46 @@
 
 /*NAVIGATION*/
-
 .navbar .navbar-brand {
     font-size: 30px;
     padding: 20px 20px;
-    color: #27272B;
+    color: white;
 }
 
 .navbar-default {
     border-radius: 0;
-    background-color: white;
+    background-color: #282828;
     margin-bottom: 0;
 }
 
 .navbar-default .navbar-nav > li > a:not(.btn) {
-    color: #2C2C2C;
+    color: white;
     text-transform: uppercase;
     font-size: 13px;
 }
 
 .navbar-default .navbar-nav > li > a:not(.btn):hover {
-    color: #b20000;
+    color: #7F2B1B;
 }
 
 .navbar-default .navbar-nav > li > a:not(.btn):focus {
-    color: #b20000;
+    color: #7F2B1B;
 }
 
 .dropdown-menu > li > a {
-    color: #333439;
+    color: #282828;
     font-size: 13px;
     text-transform: uppercase;
 }
 
 .dropdown-menu > li > a:hover {
     background-color: #353636;
-    color: #b20000;
+    color: #7F2B1B;
 }
 
 .navbar-default .navbar-nav > .dropdown > a:hover .caret, .navbar-default .navbar-nav > .dropdown > a:focus .caret {
-    color: #b20000;
-    border-bottom-color: #b20000;
-    border-top-color: #b20000;
+    color: #7F2B1B;
+    border-bottom-color: #7F2B1B;
+    border-top-color: #7F2B1B;
 }
 
 ul .dropdown-menu {
@@ -53,28 +52,24 @@ ul .dropdown-menu {
 .jumbotron {
     height: 400px;
     text-align: center;
-    color: #333439;
+    color: #282828;
 }
 
 /*MISCELLANEOUS CLASSES*/
 
 .x {
-    color: #B20000;
-}
-
-h1,h2,h3,h4,h5,h6 {
-    color: #333439;
+    color: #7F2B1B;
 }
 
 p {
-    color: #333439;
+    color: #282828;
 }
 
 /*CONTACT FORM*/
 
 .contact {
     text-align: center;
-    color: #333439;
+    color: #282828;
 }
 
 .contact .form-group textarea {
@@ -115,20 +110,56 @@ input {
 }
 
 .carousel-caption h2,{
-    color: white;
+    color: white !important;
 }
 
 /*QUICKINFO*/
 
-.col-md-4 {
+.quickinfo {
+    background-color: #282828 ;
+}
+
+.quickinfo .col-md-12 h2 {
+    text-align: center;
+    font-size: 45px;
+    padding-top: 30px;
+}
+
+.quickinfo .col-md-4 {
     text-align: center;
     font-size: 30px;
     margin-top: 50px;
 }
 
-.col-md-4 .glyphicon {
+.quickinfo .col-md-4 .glyphicon {
     font-size: 30px;
+    color: white;
 }
+
+.quickinfo h2, .quickinfo h5, .quickinfo p {
+    color: white;
+}
+
+
+/*FOOTER*/
+.footer {
+    background-color: #7F2B1B;
+    color: white;
+}
+
+.footer .container .row .col-xs-7 h3 , .col-xs-7 p , .col-xs-5 {
+    color: white;
+    padding: 10px;
+}
+
+.col-xs-5 .links {
+    margin-top: 15px;
+}
+
+.col-xs-5 .links a {
+    padding-left: 20px;
+}
+
 
 /*MOBILE DEVICES*/
 
@@ -143,7 +174,7 @@ input {
     }
 
     .navbar-nav {
-        background-color: #333439;
+        background-color: #282828;
     }
 
 }
@@ -175,6 +206,7 @@ input {
         bottom: 20%;
     }
 }
+
 
 
 
