@@ -1,0 +1,25 @@
+.about {
+  text-align: center;
+}
+
+.about h2, .about .lead {
+  color: #282828;
+}
+
+.col-md-4 .team img{
+  border-radius: 50%;
+  display: block;
+  height: 100px;
+  width: 100px;
+  margin:auto;
+  margin-bottom: 30px;
+}
+
+.col-md-4 .team {
+  text-align: center;
+  padding-top: 15px;
+}
+
+.col-md-4 .team p {
+  font-weight: 300;
+}
