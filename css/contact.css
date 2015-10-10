@@ -1,0 +1,25 @@
+.container-fluid {
+  height: 50px;
+}
+
+.navbar {
+  background-color: #222222;
+}
+
+.navbar .navbar-collapse {
+  background-color: #222222;
+}
+
+.container-fluid {
+  padding: 0 auto;
+}
+
+.contact h2 {
+  text-align: center;
+  color: #222222;
+}
+
+.btn-success {
+  background-color: #5a82a5;
+}
+

@@ -1,0 +1,48 @@
+.container-fluid {
+  height: 50px;
+}
+
+.navbar {
+  background-color: #222222;
+}
+
+.navbar .navbar-collapse {
+  background-color: #222222;
+}
+
+.container-fluid {
+  padding: 0 auto;
+}
+
+h2 {
+  color: #343434;
+  text-align: center;
+}
+
+.team p {
+  text-align: center;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.team h6 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.row p {
+  font-weight: 300;
+  text-align: center;
+  padding-bottom: 30px;
+  font-size: 16px;
+}
+
+img {
+  height: 100px;
+  display: block;
+  width: 100px;
+  border-radius: 50%;
+  margin: 0 auto;
+}

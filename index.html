@@ -1,160 +1,178 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <link rel="icon" type="image/png" href="assets/paper_img/favicon.ico">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  
-  <title>statikk</title>
-
-  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
-    <meta name="viewport" content="width=device-width" />
-    
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" />
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'>
-    <link href="styles/ct-paper.css" rel="stylesheet"/>
-    <link href="styles/font-awesome.css" rel="stylesheet" /> 
-    <link href="styles/stylesheet.css" rel="stylesheet">
-        
-    
-      
+<!DOCTYPE html4>
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <title>Swyft</title>
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,700" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+  <link rel="stylesheet" href="flat-ui/css/flat-ui.css">
+  <link rel="stylesheet" href="css/stylesheet.css">
 </head>
 <body>
 
-    <nav class="navbar navbar-default">
-      <div class="container-fluid">
-        
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+    <div id="otherdiv" class="container-fluid cover">
+      <div class="row">
+      <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">  
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
 
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">statikk  </a>
-        </div>
-
-        <div class="collapse navbar-collapse" id="navbar-collapse">
-
-
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="#">Store</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
-            <li><a href="#">Cart</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Account <span class='caret'></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Profile settings</a></li>
-                <li><a href="#">Security Settings</a></li>
-                <li><a href="#" class="bsetting">Change language</a></li>
-                <li role="separator" class="divider"></li>
-                <li><a href="#">Log In</a></li>
-              </ul>
-            </li>
-          </ul>
-
-        </div>
-      </div>
-    </nav>
-  
-  <div id="myCarousel" class="carousel slide">
-          <!-- Indicators -->
-          <ol class="carousel-indicators">
-              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-              <li data-target="#myCarousel" data-slide-to="1"></li>
-              <li data-target="#myCarousel" data-slide-to="2"></li>
-          </ol>
-
-          <!-- Wrapper for Slides -->
-          <div class="carousel-inner">
-              <div class="item active">
-                  <!-- Set the first background image using inline CSS below. -->
-                  <img src="images/bg2.jpg" alt="">
-                  <div class="carousel-caption">
-                      <h2>Sweeping Blade</h2>
-                      <p>An affordable but still powerful choice.</p>
-                  </div>
-              </div>
-              <div class="item">
-                  <!-- Set the second background image using inline CSS below. -->
-                  <img src="images/bg.jpg" alt="">
-                  <div class="carousel-caption">
-                      <h2>Steel Tempest</h2>
-                      <p>The latest addition to the statikk family.</p>
-                  </div>
-              </div>
-              <div class="item">
-                  <!-- Set the third background image using inline CSS below. -->
-                  <img src="images/bg3.jpg" alt="">
-                  <div class="carousel-caption">
-                      <h2>Last Breath</h2>
-                      <p>The ultimate computer made for the best.</p>
-                  </div>
-              </div>
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">swyft</a>
           </div>
 
-          <!-- Controls -->
-          <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-              <span class="glyphicon glyphicon-chevron-left"></span>
-          </a>
-          <a class="right carousel-control" href="#myCarousel" data-slide="next">
-              <span class="glyphicon glyphicon-chevron-right"></span>
-          </a>
+          <div class="collapse navbar-collapse" id="navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="store.html">Store</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+              <li><a href="cart.html">Cart</a></li>
+              <li><a href="account.html">Account </a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="center">Swyft</h1>
+          <p class="lead center">High-end Gaming PC's for extreme power enthusiasts.</p>
+          <form>      
+            <div class="input-group marginTop">
+              <span class="input-group-addon" id="sizing-addon2">@</span>
+              <input type="text" class="form-control" placeholder="Subscribe to our mailing list!" aria-describedby="sizing-addon2">
+            </div>
 
-  </div>
-
-  <div class="container-fluid quickinfo">
-    <div class="row">
-      <div class="col-md-12">
-        <h2>Our Products</h2>
+              <input type="submit" class="btn btn-info marginTop" value="SUBMIT"/>
+          </form>
+        </div>
       </div>
     </div>
-    <div class="row">
-      <div class="col-md-4">
-        <span class="glyphicon glyphicon-thumbs-up"></span>
-        <h5>Quality</h5>
-        <p>Our computers are built by the best cutting-edge technology possible. We only build with parts that are sure to last the longest and work the best.</p>
+    <div class="container-fluid companyinfo">
+      <div class="row">
+        <div class="col-md-4 col-md-offset-4">
+          <h3 class="center">What is Swyft?</h3>
+        </div>
       </div>
-      <div class="col-md-4">
-        <span class="glyphicon glyphicon-lock"></span>
-        <h5>Safety</h5>
-        <p>To avoid any damage, our computers are packed in a maximum-protection housing. For delivery, we pack the computer with memory foam and use an air bubble to keep the delicate parts safe.</p>
-      </div>
-      <div class="col-md-4">
-        <span class="glyphicon glyphicon-wrench"></span>
-        <h5>Support</h5>
-        <p>When you purchase our computers, you also get free 24/7 customer support from our friendly staff members. You can also send feedback on how your experience with our support staff was so we can tailor it to be better next time.</p>
+      <div class="row">
+        <div id="divhide" class="col-md-8 col-md-offset-2">
+          <p class="center">Swyft is an online store that sells high-end gaming PC's.</p>
+          <p class="center">We cater to gamers who want the best experience in PC gaming. </p>
+        </div>
       </div>
     </div>
-  </div>
 
-  <footer class="footer">
+    <div class="container productinfo">
+      <div class="row">
+        <div class="col-md-4 col-md-offset-4">
+          <h3 class="center">Why Swyft?</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <span class="glyphicon glyphicon-thumbs-up"></span>
+          <h4 class="center">Quality</h4>
+          <p class="center">Our computers are built by the best cutting-edge technology possible. We only build with parts that are sure to last the longest and work the best. Our experienced staff is up to date with the latest technology so  we will always be one step ahead.</p>
+        </div>
+        <div class="col-md-4">
+          <span class="glyphicon glyphicon-lock"></span>
+          <h4 class="center">Security</h4>
+          <p class="center">To avoid any damage, our computers are packed in a maximum-protection housing. For delivery, we pack the computer with memory foam and use an air bubble to keep the delicate parts safe. If there is damage in the packaging, we will return and exchange it at no cost. </p>
+        </div>
+        <div class="col-md-4">
+          <span class="glyphicon glyphicon-wrench"></span>
+          <h4 class="center">Support</h4>
+          <p class="center">When you purchase our computers, you also get free 24/7 customer support from our friendly staff members. You can also send feedback on how your experience with our support staff was so we can tailor it to be better next time.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container faq">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <h3>Frequently Asked Questions</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <p class="question">How is Swyft different from any other PC company?</p>
+          <p class="answer">Swyft is different because we care about the full long-term experience. We don't want you to pay a lot of money for a "powerful" PC that will just last for 2 years. We want to make sure that your computer will last for as long as it can and still have the power to run the most demanding games.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <p class="question">How can you manage to have such low costs while still be able to provide these excellent services?</p>
+          <p class="answer">The truth is, any company can do this and still make a profit. The thing about Swyft is that while we still do make a profit, about 90% of the revenue we get goes straight towards the development and upgrades for the company.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <p class="question">Where do you ship your computers to?</p>
+          <p class="answer">Whilst we are an Australian-based company, our services span worldwide. Shipping fees and duration of deliveries may vary.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <p class="question">Why should we buy your pre-built PCs if we could just make our own?</p>
+          <p class="answer">Whilst true, you wouldn't be able to make your own 24/7 support hotline or ensure that your parts come safely with no issues. With Swyft we guarantee that our products are free from any problems. If there are issues you will get an exchange for it, absolutely free.</p>
+        </div>
+      </div>
+    </div>
+
     <div class="container">
       <div class="row">
-        <div class="col-xs-6 col-xs-offset-3">
-          <p>Technology to power your dreams.</p>
+        <div class="col-md-6 col-md-offset-3">
+          <p class="action center">What are you waiting for? Pick your computer now!</p>
         </div>
-        <div class="col-xs-8 col-xs-offset-2">
-          <ul>
-            <li>© 2015 Nexus</li>
-            <li><a href="about.html">About</a></li>   
-            <li><a href="store.html">Store</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="terms.html">Terms</a></li>
-            <li><a href="mailto:info@codewars.com" rel="popover">Email</a></li>
-          </ul>
+      </div>
+      <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+          <button class="btn btn-success btn-large"><a href="store.html">STORE</a></button>
         </div>
       </div>
     </div>
-  </footer>
 
-  <!-- JQuery JS -->
-  <script src="application/jquery-2.1.4.js"></script>
-  <!-- Bootstrap JS -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-  <script src="application/application.js"></script>
-  <script src="application/ct-paper.js"></script> 
-</body>
-</html>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="footer-segment">
+              <p>&copy; 2015 Swyft, Inc.</p>
+            </div>
+          </div>
+          <div class="footer-apps">
+            <ul>
+              <li>
+                <a href="www.facebook.com">
+                  <i class="fa fa-facebook"></i>
+                </a>
+              </li>
+              <li>
+                <a href="www.twitter.com">
+                  <i class="fa fa-twitter"></i>
+                </a>
+              </li>
+              <li>
+                <a href="www.instagram.com">
+                  <i class="fa fa-instagram"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+   
+  
+  <script src="flat-ui/js/flat-ui.js"></script>
+  <script src="js/jquery-2.1.4.js"></script>
+  <script src="js/script.js"></script>
+  <script src="bootstrap/js/bootstrap.js"></script>
+
+
+</body></html>

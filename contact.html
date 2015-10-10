@@ -1,123 +1,115 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <link rel="icon" type="image/png" href="assets/paper_img/favicon.ico">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  
-  <title>About Us</title>
+<!DOCTYPE html4>
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <title>Swyft</title>
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,700" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="flat-ui/css/flat-ui.css">
+  <link rel="stylesheet" href="css/stylesheet.css">
+  <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
 
-  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
-    <meta name="viewport" content="width=device-width" />
-    
-    <link href="styles/bootstrap.css" rel="stylesheet" />
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'>
-    <link href="styles/ct-paper.css" rel="stylesheet"/>
-    <link href="styles/font-awesome.css" rel="stylesheet" /> 
-    <link href="styles/stylesheet.css" rel="stylesheet">
-        
-    
-      
+  <link rel="stylesheet" href="css/contact.css">
 </head>
 <body>
 
-  <nav class="navbar navbar-default">
     <div class="container-fluid">
-      
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="index.html">statikk</a>
-      </div>
+      <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">  
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
 
-      <div class="collapse navbar-collapse" id="navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">swyft</a>
+          </div>
 
-        <ul class="nav navbar-nav">
-          <li><a href="about.html">About Us</a></li>
-          <li><a href="#">Store</a></li>
-          <li><a href="contact.html">Contact Us</a></li>
-        </ul>
-
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="#">Cart</a></li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Account <span class='caret'></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="#">Profile settings</a></li>
-              <li><a href="#">Security Settings</a></li>
-              <li><a href="#" class="bsetting">Change language</a></li>
-              <li role="separator" class="divider"></li>
-              <li><a href="#">Log In</a></li>
+          <div class="collapse navbar-collapse" id="navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="store.html">Store</a></li>
+              <li><a class="active" href="contact.html">Contact Us</a></li>
+              <li><a href="cart.html">Cart</a></li>
+              <li><a href="account.html">Account </a></li>
             </ul>
-          </li>
-        </ul>
-
-      </div>
+          </div>
+        </div>
+      </nav>
     </div>
-  </nav>
 
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6 col-md-offset-3 contact">
-        <h2>Contact Us</h2>
-        <form>
-
-          <div class="form-group">
-            <label for="name">Your Name:</label>
-            <input type="text" name="name" class="form-control" placeholder="Your Name">
-          </div>
-        
-
-          <div class="form-group">
-            <label for="email">Your Email:</label>
-            <input type="email" name="email" class="form-control" placeholder="Your Email">
-          </div>
-
-
-          <div class="form-group">
-            <label for="email">Your Comment:</label>
-            <textarea class="form-control" name="comment">
-            </textarea>
-          </div>
-
-          <input type="submit" name="submit" class="btn btn-success" value="Submit">
-
-        </form>
-      </div>
-
-    </div>
-  </div>
-
-  <footer class="footer">
     <div class="container">
       <div class="row">
-        <div class="col-xs-6 col-xs-offset-3">
-          <p>Technology to power your dreams.</p>
+        <div class="col-md-6 col-md-offset-3 contact">
+          <h2>Contact Us</h2>
+          <form>
+
+            <div class="form-group">
+              <label for="name">Your Name:</label>
+              <input type="text" name="name" class="form-control" placeholder="Your Name">
+            </div>
+          
+
+            <div class="form-group">
+              <label for="email">Your Email:</label>
+              <input type="email" name="email" class="form-control" placeholder="Your Email">
+            </div>
+
+
+            <div class="form-group">
+              <label for="email">Your Comment:</label>
+              <textarea class="form-control" name="comment">
+              </textarea>
+            </div>
+
+            <input type="submit" name="submit" class="btn btn-success" value="Submit">
+
+          </form>
         </div>
-        <div class="col-xs-8 col-xs-offset-2">
-          <ul>
-            <li>© 2015 Nexus</li>
-            <li><a href="about.html">About</a></li>   
-            <li><a href="store.html">Store</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="terms.html">Terms</a></li>
-            <li><a href="mailto:info@codewars.com" rel="popover">Email</a></li>
-          </ul>
-        </div>
+
       </div>
     </div>
-  </footer>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="footer-segment">
+              <p>&copy; 2015 Swyft, Inc.</p>
+            </div>
+          </div>
+          <div class="footer-apps">
+            <ul>
+              <li>
+                <a href="www.facebook.com">
+                  <i class="fa fa-facebook"></i>
+                </a>
+              </li>
+              <li>
+                <a href="www.twitter.com">
+                  <i class="fa fa-twitter"></i>
+                </a>
+              </li>
+              <li>
+                <a href="www.instagram.com">
+                  <i class="fa fa-instagram"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
 
     
-  <!-- JQuery JS -->
-  <script src="application/jquery-2.1.4.js"></script>
-  <!-- Bootstrap JS -->
-  <script src="application/bootstrap.js"></script>
-  <script src="application/application.js"></script>
-  <script src="application/ct-paper.js"></script> 
-</body>
-</html>
+    
+  
+  <script src="flat-ui/js/flat-ui.js"></script>
+  <script src="js/jquery-2.1.4.js"></script>
+  <script src="js/script.js"></script>
+  <script src="bootstrap/js/bootstrap.js"></script>
+
+
+</body></html>
