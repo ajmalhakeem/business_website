@@ -1,8 +1,3 @@
-#Business Website
-This is the business website repo I am making for a school assignment. 
+# Business Website 2.0
 
-###Resources/Credits: 
-* *Paper Kit Bootstrap UI* - http://demos.creative-tim.com/paper-kit
-
-* *Bootstrap* - http://getbootstrap.com/
-
+This is the business website repo I am making for a school assignment
