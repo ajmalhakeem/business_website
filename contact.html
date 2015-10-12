@@ -7,11 +7,12 @@
   <link rel="stylesheet" href="flat-ui/css/flat-ui.css">
   <link rel="stylesheet" href="css/stylesheet.css">
   <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
-
+  <link rel="stylesheet" href="css/about.css">
   <link rel="stylesheet" href="css/contact.css">
+
 </head>
 <body>
-
+    
     <div class="container-fluid">
       <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">  
@@ -23,7 +24,7 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="index.html">swyft</a>
+            <a class="navbar-brand" href="top">swyft</a>
           </div>
 
           <div class="collapse navbar-collapse" id="navbar-collapse">
@@ -38,36 +39,38 @@
         </div>
       </nav>
     </div>
-
+    
     <div class="container">
       <div class="row">
-        <div class="col-md-6 col-md-offset-3 contact">
-          <h2>Contact Us</h2>
-          <form>
+        <div class="col-md-6 col-md-offset-3 emailForm">
+          <h2>Contact Me</h2>
+        
+
+          <p class="lead">Please leave a comment if you would like to contact me.</p>
+          <form method="post">
 
             <div class="form-group">
               <label for="name">Your Name:</label>
-              <input type="text" name="name" class="form-control" placeholder="Your Name">
+              <input type="text" name="name" class="form-control" placeholder="Your Name" value="">
             </div>
           
 
             <div class="form-group">
               <label for="email">Your Email:</label>
-              <input type="email" name="email" class="form-control" placeholder="Your Email">
+              <input type="email" name="email" class="form-control" placeholder="Your Email" value="">
             </div>
 
 
             <div class="form-group">
               <label for="email">Your Comment:</label>
-              <textarea class="form-control" name="comment">
-              </textarea>
+              <textarea class="form-control" name="comment"></textarea>
             </div>
 
-            <input type="submit" name="submit" class="btn btn-success" value="Submit">
+            <input type="submit" name="submit" class="btn btn-success btn-lg" value="Submit">
 
           </form>
-        </div>
 
+        </div>
       </div>
     </div>
 
@@ -82,17 +85,17 @@
           <div class="footer-apps">
             <ul>
               <li>
-                <a href="www.facebook.com">
+                <a href="http://www.facebook.com">
                   <i class="fa fa-facebook"></i>
                 </a>
               </li>
               <li>
-                <a href="www.twitter.com">
+                <a href="http://www.twitter.com">
                   <i class="fa fa-twitter"></i>
                 </a>
               </li>
               <li>
-                <a href="www.instagram.com">
+                <a href="http://www.instagram.com">
                   <i class="fa fa-instagram"></i>
                 </a>
               </li>
@@ -101,15 +104,17 @@
         </div>
       </div>
     </footer>
-    
+
 
     
-    
+
+
+
+
+
   
   <script src="flat-ui/js/flat-ui.js"></script>
   <script src="js/jquery-2.1.4.js"></script>
   <script src="js/script.js"></script>
   <script src="bootstrap/js/bootstrap.js"></script>
-
-
 </body></html>

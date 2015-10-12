@@ -1,9 +1,13 @@
 html,body {
   height:100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
 }
 
 body {
-  font-family: "Roboto", Verdana, sans-serif !important;
+  font-family: "Lato", Verdana, sans-serif !important;
+  overflow-x:hidden;
 }
 
 .cover {
@@ -48,7 +52,7 @@ body {
 }
 
 .navbar-default .navbar-nav > li > a:hover {
-  color: #5a82a5;
+  color: #39acd6;
 }
 
 .dropdown-menu > li {
@@ -61,12 +65,12 @@ body {
 
 .productinfo h4 {
   color: #333333;
-  padding-bottom: 15p
-  x;
+  padding-bottom: 15px;
 }
 .productinfo h3{
   color: #333333;
   font-weight: 600;
+  padding-bottom: 25px;
 }
 
 .productinfo span {
@@ -83,9 +87,21 @@ body {
 }
 
 .companyinfo {
-  background-color: #E6E6E6;
+  background-color: #333333;
 }
   
+.companyinfo h3 , .companyinfo p {
+  color: white;
+}
+
+.input-group-addon {
+  border-radius: 0;
+}
+.form-control {
+  border: none;
+  border-radius: 0;
+}
+
 .companyinfo .row p:last-child {
   padding-bottom: 40px;
 }
@@ -94,6 +110,9 @@ h4, p {
   color: #333333;
 }
 
+.col-md-4 .glyphicon {
+  font-size: 2em;
+}
 
 p {
   font-weight: 300;
@@ -110,7 +129,7 @@ p {
 }
 
 .active {
-  color: #5a82a5 !important;
+  color: #39acd6 !important;
 }
 
 .cover .row:first-child {
@@ -121,7 +140,9 @@ p {
   color: white;
   vertical-align: middle;
   padding-top: 50px;
-  text-shadow: 2px 2px 4px #000000;;
+  text-shadow: 2px 2px 4px #000000;
+  font-weight: 700;
+  letter-spacing: 1px;
 }
 
 .cover .row .col-md-12 p {
@@ -151,7 +172,8 @@ h3 {
   display: block;
   margin-top: 15px;
   font-weight: 300;
-  background-color: #5a82a5;
+  background-color: #39acd6;
+  border-radius :0;
 }
 
 .faq .row h3 {
@@ -178,11 +200,13 @@ h3 {
   padding-top: 30px;
 }
 
-.row .btn {
+.row .btn-success {
   display: block;
   margin: 0 auto;
   letter-spacing: 1.2px;
   margin-bottom: 30px;
+  border: 0;
+  border-radius: 0;
 }
 
 footer p {
@@ -218,7 +242,12 @@ footer .footer-apps ul li a {
 }
 
 footer .footer-apps ul li a:hover {
-  color: #5a82a5;
+  color: #39acd6;
+}
+
+p.lead {
+  font-weight: 300;
+  font-size: 25px;
 }
 
 

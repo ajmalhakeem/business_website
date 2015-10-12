@@ -1,0 +1,183 @@
+<!DOCTYPE html4>
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <title>Swyft</title>
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,700" rel="stylesheet" type="text/css"> 
+  <link rel="stylesheet" href="flat-ui/css/flat-ui.css">
+  <link rel="stylesheet" href="css/stylesheet.css">
+  <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+  <link rel="stylesheet" href="css/about.css">
+  <link rel="stylesheet" href="css/cart.css">
+</head>
+<body>
+
+    <div class="container-fluid">
+      <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">  
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">swyft</a>
+          </div>
+
+          <div class="collapse navbar-collapse" id="navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="store.html">Store</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+              <li><a class="active" href="cart.html">Cart</a></li>
+              <li><a href="account.html">Account </a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <div class="container cart"> 
+        <div class="row">
+          <div class="col-md-4">
+            <h4>Shopping Cart</h4>
+          </div>
+        </div>        
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th>Item(s)</th>
+              <th>Price</th>
+              <th>Quantity</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Death Mark II</td>
+              <td>$1699.00</td>
+              <td>1x</td>
+            </tr>
+            <tr>
+              <td>Phantom Dancer</td>
+              <td>$1000.00</td>
+              <td>1x</td>
+            </tr>
+            <tr class="warning">
+              <td>Shipping Cost</td>
+              <td>$20.00</td>
+              <td>1x</td>
+            </tr>
+          </tbody>
+            <tr>
+              <td>Total</td>
+              <td>$2719.00</td>
+              <td></td>
+            </tr>
+        </table>
+    </div>
+  
+    <div class="container payment">
+      <div class="row">
+        <div class="col-md-12">
+
+          <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Purchase  <i class="fa fa-shopping-cart"></i></button>
+
+          <!-- Modal -->
+          <div id="myModal" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-lg">
+
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title center">Payment Info</h4>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <p class="prompt">Pay with:</p>
+                    <div class="col-md-3">
+                      <i class="fa fa-cc-paypal"></i>
+                    </div>
+                    <div class="col-md-3">
+                      <i class="fa fa-cc-mastercard"></i>
+                    </div>
+                    <div class="col-md-3">
+                      <i class="fa fa-cc-visa"></i>
+                    </div>
+                    <div class="col-md-3">
+                      <i class="fa fa-cc-stripe"></i>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-3"><p>Paypal</p></div>
+                    <div class="col-md-3"><p>Mastercard</p></div>
+                    <div class="col-md-3"><p>Visa</p></div>
+                    <div class="col-md-3"><p>Stripe</p></div>
+                  </div>
+                  <div class="row dismiss">
+                    <p class="prompt">Total Amount</p>
+                  </div>
+                  <div class="row dismiss">
+                    <p class="dollar">$2719.00</p>
+                  </div>
+                </div>
+                <div class="modal-footer dismiss">
+                  <button type="button" class="btn btn-default">Pay Now</button>
+                </div>
+                  <div class="thecube dismiss-two">
+                        <div class="cube c1"></div>
+                        <div class="cube c2"></div>
+                        <div class="cube c4"></div>
+                        <div class="cube c3"></div>
+                  </div>
+                  <p class="dollar dismiss-three">
+                    All done! Thank you for your purchase!
+                  </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="footer-segment">
+              <p>&copy; 2015 Swyft, Inc.</p>
+            </div>
+          </div>
+          <div class="footer-apps">
+            <ul>
+              <li>
+                <a href="www.facebook.com">
+                  <i class="fa fa-facebook"></i>
+                </a>
+              </li>
+              <li>
+                <a href="www.twitter.com">
+                  <i class="fa fa-twitter"></i>
+                </a>
+              </li>
+              <li>
+                <a href="www.instagram.com">
+                  <i class="fa fa-instagram"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  
+  <script src="flat-ui/js/flat-ui.js"></script>
+  <script src="js/jquery-2.1.4.js"></script>
+  <script src="js/cart.js"></script>
+  <script src="bootstrap/js/bootstrap.js"></script>
+
+
+</body></html>

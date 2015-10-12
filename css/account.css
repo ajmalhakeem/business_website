@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+}
+
+#nav {
+    margin: 0;
+    height: 50px;
+    background: #fff;
+    position: relative;
+}
+
+#content {
+    margin: 400px 0 0 0;
+    height: 1000px;
+    background: #fff;
+    position: relative;
+}
+
+#background {
+    background: url('../images/profile_bg.jpg');
+    position: fixed;
+    background-position: center;
+    background-size: cover;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 450px;
+}
+
+.col-md-4 img {
+    margin: 0 auto;
+    display: block;
+    border: 5px solid #ffffff;
+    border-radius: 15px;
+}
+
+.col-md-12 h3 {
+    color: white;
+}
+
+#content {
+    background-color: #3d3d3d;
+}
+
+#content p {
+    color: white;
+}
+
+#content .col-md-4 p {
+    font-size: 21px;
+    font-weight: 300;
+}
+
+#content .col-md-4 p.first-child {
+    margin-top: 50px;
+    padding-bottom: 0;
+    margin-bottom: 0px
+}

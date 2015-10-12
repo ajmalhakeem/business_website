@@ -1,5 +1,4 @@
 $(document).ready( function() {
-
     function checkScroll(){
         var startY = $('.navbar').height() * 12; //The point where the navbar changes in px
 
@@ -24,4 +23,6 @@ $(document).ready( function() {
             $("#divhide").fadeIn(1500); //reached the desired point -- show div
         }
     });
+
+    window.sr = new scrollReveal();
 });

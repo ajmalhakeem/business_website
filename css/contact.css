@@ -1,25 +1,11 @@
-.container-fluid {
-  height: 50px;
+.form-control {
+  background-color: #e8e5e5;
 }
 
-.navbar {
-  background-color: #222222;
+textarea {
+  height: 200px !important;
 }
 
-.navbar .navbar-collapse {
-  background-color: #222222;
-}
-
-.container-fluid {
-  padding: 0 auto;
-}
-
-.contact h2 {
+.emailForm h2 {
   text-align: center;
-  color: #222222;
 }
-
-.btn-success {
-  background-color: #5a82a5;
-}
-
