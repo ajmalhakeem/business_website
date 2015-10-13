@@ -35,15 +35,15 @@ body {
 }
 
 .col-md-12 h3 {
-    color: white;
+    color: #3d3d3d;
 }
 
 #content {
-    background-color: #3d3d3d;
+    background-color: white;
 }
 
 #content p {
-    color: white;
+    color: black;
 }
 
 #content .col-md-4 p {
@@ -54,5 +54,27 @@ body {
 #content .col-md-4 p.first-child {
     margin-top: 50px;
     padding-bottom: 0;
-    margin-bottom: 0px
+    margin-bottom: 0px;
 }
+
+#content .row .col-md-6 ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#content .row .col-md-6 ul li {
+    text-align: center;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+#content .row .col-md-6 p {
+    font-size: 17px;
+}
+
+#content .alert-warning {
+    margin-top: 15px;
+}
+
+
+
